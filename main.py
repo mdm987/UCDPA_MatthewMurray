@@ -24,10 +24,6 @@ athletes.sort_values('discipline', ascending=False)
 athletes_object = athletes['birth_date']
 print(athletes_object)
 
-# Grouping - Medals by Discipline
-medals = medals.groupby(['discipline', 'medal_type'])['medal_code'].count().reset_index()
-medals.head(10)
-
 # Replace Missing values - Where blank birth country replace with unknown
 athletes['birth_country'] = athletes['birth_country'].replace(np.nan, 'Unknown')
 
@@ -40,14 +36,19 @@ second = athletes.loc["HARRINGTON Kellie Anne"]
 print(first, "\n\n\n", second)
 
 # Iterrows
-for lab, row in medals.iterrows():
-    print(lab)
-    print(row)
+#for lab, row in medals.iterrows():
+  #  print(lab)
+  #  print(row)
 
 # Merge athletes & medal
-olympicmerge = pd.concat(
-    map(pd.read_csv, ['TokyoAthletes2020.csv', 'TokyoMedals2020.csv']), ignore_index=True)
-print(olympicmerge)
+#olympicmerge = pd.concat(
+#    map(pd.read_csv, ['TokyoAthletes2020.csv', 'TokyoMedals2020.csv']), ignore_index=True)
+#print(olympicmerge)
+
+# Join the dataframes
+#olympicjoin_df = athletes.merge(medals, how = 'left', on = 'name')
+#print(olympicjoin_df)
+
 
 # View header shape datatype
 print(medals.head())
@@ -60,6 +61,12 @@ print(athletes.shape)
 print(athletes.dtypes)
 print(athletes['birth_country'])
 
+
+# Grouping - Medals by Discipline
+#medals = medals.groupby(['discipline', 'medal_type'])['medal_code'].count().reset_index()
+#medals.head()
+
+
 ## Scatter Chart Example
 #plt.scatter(medals['event'], medals['country'], s=3)
 #plt.xlabel('Event')
@@ -68,3 +75,9 @@ print(athletes['birth_country'])
 #plt.show()
 
 
+# Plot the top 5 countries with the most athletes competing in Japan 2020
+country_rep = athletes.country.value_counts().sort_values(ascending=False).head(5)
+plt.figure(figsize=(10,6))
+plt.title('Countries with most competing athletes (Top 5)')
+sns.barplot(x=country_rep.index,y=country_rep, palette = 'Set3')
+plt.show()
