@@ -1,10 +1,10 @@
 medal_type,medal_code,medal_date,athlete_short_name,name,athlete_sex,athlete_link,country_code,discipline_code,event,country,discipline
-Gold Medal,1,00:00.0,KIM JD,KIM Je Deok,X,../../../en/results/archery/athlete-profile-n1440267-kim-je-deok.htm,KOR,ARC,Mixed Team,Republic of Korea,Archery
-Gold Medal,1,00:00.0,AN S,AN San,X,../../../en/results/archery/athlete-profile-n1338248-an-san.htm,KOR,ARC,Mixed Team,Republic of Korea,Archery
-Silver Medal,2,00:00.0,SCHLOESSER G,SCHLOESSER Gabriela,X,../../../en/results/archery/athlete-profile-n1458456-schloesser-gabriela.htm,NED,ARC,Mixed Team,Netherlands,Archery
-Silver Medal,2,00:00.0,WIJLER S,WIJLER Steve,X,../../../en/results/archery/athlete-profile-n1458465-wijler-steve.htm,NED,ARC,Mixed Team,Netherlands,Archery
-Bronze Medal,3,00:00.0,ALVAREZ L,ALVAREZ Luis,X,../../../en/results/archery/athlete-profile-n1294470-alvarez-luis.htm,MEX,ARC,Mixed Team,Mexico,Archery
-Bronze Medal,3,00:00.0,VALENCIA A,VALENCIA Alejandra,X,../../../en/results/archery/athlete-profile-n1294484-valencia-alejandra.htm,MEX,ARC,Mixed Team,Mexico,Archery
+Gold Medal,1,00:00.0,KIM JD,KIM Je Deok,,../../../en/results/archery/athlete-profile-n1440267-kim-je-deok.htm,KOR,ARC,Mixed Team,Republic of Korea,Archery
+Gold Medal,1,00:00.0,AN S,AN San,,../../../en/results/archery/athlete-profile-n1338248-an-san.htm,KOR,ARC,Mixed Team,Republic of Korea,Archery
+Silver Medal,2,00:00.0,SCHLOESSER G,SCHLOESSER Gabriela,,../../../en/results/archery/athlete-profile-n1458456-schloesser-gabriela.htm,NED,ARC,Mixed Team,Netherlands,Archery
+Silver Medal,2,00:00.0,WIJLER S,WIJLER Steve,,../../../en/results/archery/athlete-profile-n1458465-wijler-steve.htm,NED,ARC,Mixed Team,Netherlands,Archery
+Bronze Medal,3,00:00.0,ALVAREZ L,ALVAREZ Luis,,../../../en/results/archery/athlete-profile-n1294470-alvarez-luis.htm,MEX,ARC,Mixed Team,Mexico,Archery
+Bronze Medal,3,00:00.0,VALENCIA A,VALENCIA Alejandra,,../../../en/results/archery/athlete-profile-n1294484-valencia-alejandra.htm,MEX,ARC,Mixed Team,Mexico,Archery
 Gold Medal,1,00:00.0,CARAPAZ R,CARAPAZ Richard,M,../../../en/results/cycling-road/athlete-profile-n1473746-carapaz-richard.htm,ECU,CRD,Men's Road Race,Ecuador,Cycling Road
 Silver Medal,2,00:00.0,van AERT W,van AERT Wout,M,../../../en/results/cycling-road/athlete-profile-n1393553-van-aert-wout.htm,BEL,CRD,Men's Road Race,Belgium,Cycling Road
 Bronze Medal,3,00:00.0,POGACAR T,POGACAR Tadej,M,../../../en/results/cycling-road/athlete-profile-n1429471-pogacar-tadej.htm,SLO,CRD,Men's Road Race,Slovenia,Cycling Road
@@ -201,12 +201,12 @@ Bronze Medal,3,00:00.0,McKEON E,McKEON Emma,W,../../../en/results/swimming/athle
 Gold Medal,1,00:00.0,TITMUS A,TITMUS Ariarne,W,../../../en/results/swimming/athlete-profile-n1482877-titmus-ariarne.htm,AUS,SWM,Women's 400m Freestyle,Australia,Swimming
 Silver Medal,2,00:00.0,LEDECKY K,LEDECKY Kathleen,W,../../../en/results/swimming/athlete-profile-n1302300-ledecky-kathleen.htm,USA,SWM,Women's 400m Freestyle,United States of America,Swimming
 Bronze Medal,3,00:00.0,LI B,LI Bingjie,W,../../../en/results/swimming/athlete-profile-n1311341-li-bingjie.htm,CHN,SWM,Women's 400m Freestyle,People's Republic of China,Swimming
-Gold Medal,1,00:00.0,MIZUTANI J,MIZUTANI Jun,X,../../../en/results/table-tennis/athlete-profile-n1316123-mizutani-jun.htm,JPN,TTE,Mixed Doubles,Japan,Table Tennis
-Gold Medal,1,00:00.0,ITO M,ITO Mima,X,../../../en/results/table-tennis/athlete-profile-n1316127-ito-mima.htm,JPN,TTE,Mixed Doubles,Japan,Table Tennis
-Silver Medal,2,00:00.0,XU X,XU Xin,X,../../../en/results/table-tennis/athlete-profile-n1321068-xu-xin.htm,CHN,TTE,Mixed Doubles,People's Republic of China,Table Tennis
-Silver Medal,2,00:00.0,LIU S,LIU Shiwen,X,../../../en/results/table-tennis/athlete-profile-n1322024-liu-shiwen.htm,CHN,TTE,Mixed Doubles,People's Republic of China,Table Tennis
-Bronze Medal,3,00:00.0,LIN YJ,LIN Yun Ju,X,../../../en/results/table-tennis/athlete-profile-n1338649-lin-yun-ju.htm,TPE,TTE,Mixed Doubles,Chinese Taipei,Table Tennis
-Bronze Medal,3,00:00.0,CHENG IC,CHENG I Ching,X,../../../en/results/table-tennis/athlete-profile-n1338655-cheng-i-ching.htm,TPE,TTE,Mixed Doubles,Chinese Taipei,Table Tennis
+Gold Medal,1,00:00.0,MIZUTANI J,MIZUTANI Jun,,../../../en/results/table-tennis/athlete-profile-n1316123-mizutani-jun.htm,JPN,TTE,Mixed Doubles,Japan,Table Tennis
+Gold Medal,1,00:00.0,ITO M,ITO Mima,,../../../en/results/table-tennis/athlete-profile-n1316127-ito-mima.htm,JPN,TTE,Mixed Doubles,Japan,Table Tennis
+Silver Medal,2,00:00.0,XU X,XU Xin,,../../../en/results/table-tennis/athlete-profile-n1321068-xu-xin.htm,CHN,TTE,Mixed Doubles,People's Republic of China,Table Tennis
+Silver Medal,2,00:00.0,LIU S,LIU Shiwen,,../../../en/results/table-tennis/athlete-profile-n1322024-liu-shiwen.htm,CHN,TTE,Mixed Doubles,People's Republic of China,Table Tennis
+Bronze Medal,3,00:00.0,LIN YJ,LIN Yun Ju,,../../../en/results/table-tennis/athlete-profile-n1338649-lin-yun-ju.htm,TPE,TTE,Mixed Doubles,Chinese Taipei,Table Tennis
+Bronze Medal,3,00:00.0,CHENG IC,CHENG I Ching,,../../../en/results/table-tennis/athlete-profile-n1338655-cheng-i-ching.htm,TPE,TTE,Mixed Doubles,Chinese Taipei,Table Tennis
 Gold Medal,1,00:00.0,KHRAMTCOV M,KHRAMTCOV Maksim,M,../../../en/results/taekwondo/athlete-profile-n1428979-khramtcov-maksim.htm,ROC,TKW,Men -80kg,ROC,Taekwondo
 Silver Medal,2,00:00.0,ELSHARABATY S,ELSHARABATY Saleh,M,../../../en/results/taekwondo/athlete-profile-n1344971-elsharabaty-saleh.htm,JOR,TKW,Men -80kg,Jordan,Taekwondo
 Bronze Medal,3,00:00.0,KANAET T,KANAET Toni,M,../../../en/results/taekwondo/athlete-profile-n1383817-kanaet-toni.htm,CRO,TKW,Men -80kg,Croatia,Taekwondo
