@@ -37,18 +37,18 @@ second = athletes.loc["HARRINGTON Kellie Anne"]
 print(first, "\n\n\n", second)
 
 # Iterrows
-#for lab, row in medals.iterrows():
-  #  print(lab)
-  #  print(row)
+for lab, row in medals.iterrows():
+    print(lab)
+    print(row)
 
 # Merge athletes & medal
-#olympicmerge = pd.concat(
-#    map(pd.read_csv, ['TokyoAthletes2020.csv', 'TokyoMedals2020.csv']), ignore_index=True)
-#print(olympicmerge)
+olympicmerge = pd.concat(
+    map(pd.read_csv, ['TokyoAthletes2020.csv', 'TokyoMedals2020.csv']), ignore_index=True)
+print(olympicmerge)
 
 # Join the dataframes
-#olympicjoin_df = athletes.merge(medals, how = 'left', on = 'name')
-#print(olympicjoin_df)
+olympicjoin_df = athletes.merge(medals, how = 'left', on = 'name')
+print(olympicjoin_df)
 
 # Example custom function
 def multiplythreenums (a,b,c) :
@@ -79,7 +79,6 @@ gender_breakdown = athletes.gender.value_counts()
 plt.figure(figsize=(12,8))
 plt.title('Gender breakdown of the athletes')
 plt.pie(gender_breakdown, labels=gender_breakdown.index,autopct='%1.1f%%',startangle=90)
-#plt.show()
 
 # 2 - Top 5 countries with the most athletes
 country_rep = athletes.country.value_counts().sort_values(ascending=False).head(5)
@@ -88,7 +87,6 @@ plt.title('Countries with most competing athletes (Top 5)')
 sns.barplot(x=country_rep.index,y=country_rep, palette = 'Set3')
 plt.xlabel('Countries')
 plt.ylabel('Number of Athletes')
-#plt.show()
 
 # 3 - Age Breakdown across the athletes
 plt.figure(figsize=(12,8))
@@ -96,7 +94,6 @@ plt.title('Age breakdown of the athletes')
 plt.xlabel('Age')
 plt.ylabel('Number of athletes')
 plt.hist(athletes.Age, bins = np.arange(12,70,2),color='pink',edgecolor ='black')
-# plt.show()
 
 # 4 - Top 10 countries with most medal wins
 event_medals = medals.country.value_counts().sort_values(ascending=False).head(8)
@@ -104,13 +101,10 @@ plt.figure(figsize=(14,10))
 plt.title('Countries with the most medals (Top 10)')
 sns.barplot(x=event_medals,y=event_medals.index, palette = 'Set2')
 plt.xlabel('Number of medals')
-#plt.show()
 
 # 5 - Seaborn Scatter Plot showing Age by Olympic Discipline
 plt.figure(figsize=(16,12))
 sns.set_style("whitegrid")
 axis = sns.scatterplot (x="Age", y="discipline", data=athletes, hue='gender')
 plt.title ('Age by Olympic Discipline')
-#plt.show()
-
-
+plt.show()
