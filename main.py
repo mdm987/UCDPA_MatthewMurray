@@ -67,11 +67,9 @@ print(athletes.shape)
 print(athletes.dtypes)
 print(athletes['birth_country'])
 
-
 # Grouping - Medals by Discipline
 #medals = medals.groupby(['discipline', 'medal_type'])['medal_code'].count().reset_index()
 #medals.head()
-
 
 
 # 1 - Gender breakdown of competing athletes
@@ -107,4 +105,15 @@ plt.figure(figsize=(16,12))
 sns.set_style("whitegrid")
 axis = sns.scatterplot (x="Age", y="discipline", data=athletes, hue='gender')
 plt.title ('Age by Olympic Discipline')
+
+# 6 - Top 12 athletes with the most medals
+top_athletes = medals['name'].value_counts().head(12).index
+plt.figure(figsize=(14, 10))
+sns.countplot(data=medals, y='name', order=top_athletes)
+plt.title('Athletes with the most awarded medals')
+plt.xlabel('Awarded medals')
+plt.ylabel('Athlete Name')
+
+# Show all visualisations
 plt.show()
+
